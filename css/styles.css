@@ -53,6 +53,14 @@ body {
   color: #434455;
   line-height: 1.5em;
 }
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404bbf;
+  }
+.header-nav-contact:hover,
+.header-nav-contact:focus {
+  color: #404bbf;
+}
 /* About section */
 .about {
   background: #2e2f42;
@@ -75,6 +83,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
+}
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 /* Our qualities */
 .qualities {
@@ -176,7 +189,12 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   color: #ffffff;
-  background: #404bbf;
+  background: #4d5ae5;
+}
+.navig-btn-f:hover,
+.btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .navig-btn {
   cursor: pointer;
@@ -186,7 +204,12 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   color: #4d5ae5;
-  background: #F4F4FD;
+  background: #f4f4fd;
+}
+.navig-btn:hover,
+.btn:focus {
+  color: #f4f4fd;
+  background-color: #404bbf;
 }
 /* Our services section */
 .serv {
