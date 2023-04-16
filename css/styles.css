@@ -1,5 +1,4 @@
-:root{
-
+:root {
 }
 /* Body */
 body {
@@ -44,7 +43,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-nav-logo-two{
+.header-nav-logo-two {
   color: #2e2f42;
 }
 .header-nav-item {
@@ -64,13 +63,13 @@ body {
   color: #434455;
   line-height: 1.5em;
 }
-.header-nav-add{
+.header-nav-add {
   font-style: normal;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #404bbf;
-  }
+  color: #404bbf;
+}
 .header-nav-contact:hover,
 .header-nav-contact:focus {
   color: #404bbf;
@@ -87,6 +86,8 @@ body {
   font-size: 56px;
   color: #ffffff;
   line-height: 1.07em;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .btn {
   cursor: pointer;
@@ -97,6 +98,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
+  letter-spacing: 0.04em;
 }
 .btn:hover,
 .btn:focus {
@@ -107,10 +109,7 @@ body {
 .qualities {
 }
 .qualities-title {
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  visibility: hidden;
 }
 .qualities-list {
 }
@@ -123,6 +122,7 @@ body {
   font-size: 20px;
   color: #2e2f42;
   line-height: 1.2em;
+  letter-spacing: 0.02em;
 }
 .qualities-position {
   font-family: inherit;
@@ -141,6 +141,8 @@ body {
   font-size: 36px;
   color: #2e2f42;
   line-height: 1.11em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .work-list {
 }
@@ -159,10 +161,14 @@ body {
   font-size: 36px;
   color: #2e2f42;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #FFFFFF
 }
 .team-img {
 }
@@ -173,6 +179,7 @@ body {
   font-size: 20px;
   color: #2e2f42;
   line-height: 1.2em;
+  letter-spacing: 0.02em;
 }
 .team-position {
   font-family: inherit;
@@ -257,11 +264,17 @@ body {
 }
 .footer-logo {
   color: #ffffff;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-two{
+  color: #f4f4fd;
 }
 .footer-position {
   font-family: inherit;
